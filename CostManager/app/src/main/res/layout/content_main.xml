@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#009688"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="Expense"
+            android:textColor="#FFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6sp"
+                android:gravity="bottom"
+                android:text="Today"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/daily"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6sp"
+                android:text="0"
+                android:textAlignment="textEnd"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6sp"
+                android:gravity="bottom"
+                android:text="This Month"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/monthly"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6sp"
+                android:text="0"
+                android:textAlignment="textEnd"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6sp"
+                android:gravity="bottom"
+                android:text="Income"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/incomeshow"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6sp"
+                android:text="0"
+                android:textAlignment="textEnd"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#797777"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/gridId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:rowCount="4">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="25sp"
+
+                    android:layout_marginRight="21sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#CFFFCF"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/daily" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daily\nExpense"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/gridmonthly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="25sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#CFFFCF"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/month" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Monthly\nExpense"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:layout_marginRight="21sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#CFFFCF"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/year" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yearly\nExpense"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#A5F371"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/income" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Income"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:layout_marginRight="21sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#96E799"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/statistics" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Statistics"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#96E799"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/calculate" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calculate"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:layout_marginRight="21sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#96E799"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/tips" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Save\nMoney"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10sp"
+                    android:elevation="6sp"
+                    app:cardBackgroundColor="#96E799"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <ImageView
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:background="@drawable/todo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Note"
+                            android:textAlignment="center"
+                            android:textColor="#050505"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

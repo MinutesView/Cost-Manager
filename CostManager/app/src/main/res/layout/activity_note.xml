@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NoteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Simple Memo"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#E4FFE5"
+        android:textColor="#2A84CA"
+        android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20sp"
+                android:id="@+id/inputMemo"
+                android:isScrollContainer="true"
+                android:focusable="auto"
+                android:inputType="text|textMultiLine"
+                android:enabled="true"
+                android:minLines="15"
+                android:maxLines="20"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_height="60sp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Save"
+                    android:id="@+id/saveMemo"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#438DC5"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="All Clear"
+                    android:id="@+id/clearMemo"
+                    android:layout_marginLeft="40sp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#438DC5"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

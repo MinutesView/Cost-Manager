@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#DAC9FF"
+    tools:context=".EditMonth">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="You Can Modify Text and Amount Here"
+        android:textAlignment="center"
+        android:textColor="#3A3737"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CCF7CF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textEdit"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/numberEdit"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:hint="Amount"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/doneEdit"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:background="@drawable/correct_blue" />
+</LinearLayout>

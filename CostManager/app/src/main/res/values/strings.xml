@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Cost Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cost Manager</string>
+    <string name="nav_header_subtitle">Spend Less and Save More</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Expense</string>
+    <string name="menu_gallery">Income</string>
+    <string name="menu_slideshow">Statistics</string>
+    <string name="menu_tools">Tips</string>
+    <string name="menu_calculate">Calculate</string>
+    <string name="menu_share">Note</string>
+    <string name="menu_send">Need Help?</string>
+    <string name="longPressed1">to change this click Modify button.</string>
+    <string name="longPressed2">to remove this click Delete button.</string>
+    <string name="calculator">Simple Calculator</string>
+    <string name="incomeText">If your want to set this month income click Monthly button.\nIf you want to add day by day income click Daily button</string>
+    <string name="seven_simple_way"> <b><big>7 simple ways to save money</big></b>\n\n
+        1)Record your expenses. The first step to start saving money is to figure out how much you spend.\n
+        2)Budget for savings.\n
+        3)Find ways you can cut your spending.\n
+        4)Decide on your priorities.\n
+        5)Pick the right tools.\n
+        6)Make saving automatic.\n
+        7)Watch your savings grow.</string>
+    <string name="save_often"><b><big>Save Little And Often</big></b>\n\n
+        It is a common mistake to think that you can not start saving because you do not have much money,
+        but that is like saying you will not go on that one hour run because you do not have the whole day off to exercise – it is counterproductive and unrealistic.
+        Experts advise that the best way to boost your bank balance is by taking the little and often approach to saving.
+        Rather than putting a lump sum of your months wages into a savings account and leaving very little to live off for the rest of the month,
+        just put a small amount away as often as possible and the money will mount up without you even noticing it.
+        The more you see your bank balance rising, the more you will want to keep adding to it. Go on, try it – it is addictive.
+    </string>
+
+    <string name="get_support"> <b><big>Get Support</big></b>\n\n
+        If you are really feeling the pinch and you need advice, do not feel ashamed to seek support from others.
+        You may feel like a little fish in a big pond when it comes to finances,
+        so seek advice from a financial expert who will have a lot of experience dealing with problems like yours.
+        Your financial adviser will come up with a realistic plan to help you sort out any money difficulties.
+        Perhaps even check for a free government run money advice service, rather then forking out for a private professional.
+    </string>
+    <string name="easy_steps">
+         <b><big>Easy Tips to Save Money in Your Social Circle </big></b>\n\n\n
+        People are social creatures. We tend to mirror those around us.
+        So if you are trying to create your first budget, cut costs, earn more, or generally trying to trim unnecessary spending,
+        you should take a long, hard look at the people around you.
+        Tips to Save Money in Your Social CircleLike it or not, our social circle - colleagues, neighbors, friends,
+        family - ​plays a huge role in shaping our attitudes and behaviors towards money.
+        If you are concerned that the people in your life are not supporting your decision to live a more budget-conscious lifestyle,here are a few tips.\n\n
+        Pick Who You Hang Out With Carefully\n\n
+        You tend to imitate those around you.
+        I am not saying you should completely give up spending time with your friends who are more carefree with their money.
+        Income inequality can affect friendship in many ways, but, after all, friendship is priceless.
+        However, for the time being, maybe you should focus on spending your Friday nights with the portion of your friends that tend to be more cost conscious.
+        If all your friends are getting the VIP bottle service at a night club, you may be tempted to do so as well.
+        If you hang out with that group of friends that would rather get a frozen pizza and watch Netflix, then you will most likely do the same.\n\n
+        Suggest Cheaper Activities\n\n
+        How can you spend time with those friends who like to spend? Be the person who suggests activities.
+        Your friends might fall back on their standard habits of dining out at restaurants or hitting up bars if no one suggests an alternative.
+        Taking it upon yourself to mention a different activity means you can pick something that is both fun and wallet-friendly.
+        Going on a night hike, playing board games, playing soccer at the park, watching movies at home, or having a jam session in the living room are all great options.
+        As an added bonus, you may become more popular with your friends because they will no longer have to come up with fun ideas or activities.
+        You will naturally become the central organizer within your group of friends. Who knew pinching pennies could lead to stronger friendships?\n\n
+        Get Your Spouse on Board (If You Have One)\n\n
+        Nothing can decimate your budget faster than a spouse who does not share your vision or does not enjoy following through with the execution.
+        By motivating your spouse, you will also motivate yourself. Sometimes the best way to stick to a plan is by enlisting the help of an accountability buddy.
+        There is no one better than your spouse or partner to fill that role. You may even decide you need to keep money separate in your marriage.
+        What should you do if your spouse is not interested? Ask him or her to create a vision board to discover the underlying "why," the motive,
+        behind this new-found frugality.
+        If they do not understand your desire to budget, they might after recognizing that you are skipping a restaurant tonight so that you can make a down payment on a house,
+        or retire five years earlier than planned, or get rid of your car payments once and for all.
+        You can explain that budgeting is not about depriving yourself of a few indulgences.
+        It is about inching closer to your big goals.
+        Skipping dessert does not feel like such a sacrifice when you realize the money you would have spent on chocolate cake is now extra money in your Aruba travel fund.
+    </string>
+    <string name="tricks_saving">
+        <b><big>31 Money Saving Tricks for Students</big></b>\n\n\n
+        1. Buy or rent used textbooks and sell last semester is books back.\n
+        2. Do not make impulse purchases.\n
+        3. Never go grocery shopping when you are hungry.\n
+        4. Limit the number of times you eat out monthly.\n
+        5. Cut out vices – smoking and binge drinking are terrible for you and expensive.\n
+        6. Always pay bills on time to avoid late fees.\n
+        7. If you have a credit card, pay it off as quickly as possible. (It is good to establish credit, but a bad credit score follows you everywhere.) \n
+        8. Walk, use public transportation or ride a bike instead of having a car.\n
+        9. Live with others so you can split rent and utilities.\n
+        10. Cut out expensive cable packages you do not need.\n
+        11. Consider more basic phone packages or plans that include unlimited texting with free incoming calls\n
+        12. Do not buy the most expensive college meal plans. Figure out what you actually consume and get the correlating package.\n
+        13. Shop where they offer student discounts. There are so many places that offer discounts to students with a school ID. \n
+        14. Look into a campus gym versus a gym in town. Many colleges offer memberships for free or at a reduced rate for students.\n
+        15. When planning meals, make dinner with friends and split the cost of groceries. Often times, you will be cooking too much for one person anyway!\n
+        16. Sell what you no longer use or need. There are plenty of stores and web sites, like Poshmark and Craigslist,
+        where you can sell your used clothing, furniture or tech items.\n
+        17. Do not buy unnecessary school supplies. Why buy cumbersome notebooks when you can type on your laptop? It is better for the earth anyway!\n
+        18. Do not buy books you will only need for a short period of time – check them out from the library instead.\n
+        19. Take advantage of what your campus has to offer in terms of activities, rather than spending money on going out.
+        Many campuses have an array of museums, offer movie nights and other social events for cheaper or, sometimes, for free.\n
+        20. Skip expensive spring break and summer trips – look into alternatives, like volunteering, instead. \n
+        21. Wait to get a pet until after college – a pet can become very expensive. Not only do you have another mouth to feed,
+        but veterinary bills are costly. If you love animals, there are plenty of shelters that need volunteers.\n
+        22. Go to class. You are paying for it and skipping is like throwing money out the window!\n
+        23. Drink water. It is free and better for you, anyway.\n
+        24. Make your own coffee. While coffee shops are convenient, they charge hefty prices that really add up over time.\n
+        25. Open a savings account that earns interest. Credit unions have fewer fees and are great for students.\n
+        26. Use a free tool, like FinAids Student Budget Calculator or the one offered by Mint.com, to keep track of your finances.
+        It is harder to be frivolous when you see where your money is going.\n
+        27. Never take out a loan for anything that is unrelated to your education. \n
+        28. Do not buy music. Use the free services like Spotify or Pandora offer.\n
+        29. Look into class requirements and the options for testing out of classes. Why pay for a class you could easily test out of?\n
+        30. Consider becoming a resident advisor. Many get free room and board.\n
+        31. Avoid buying name brand items. Purchase generic items whenever possible. They are exactly the same item, at a highly reduced price.
+        You can even check the ingredients to make sure!\n
+    </string>
+    <string name="need_help"><b><big>How to add Expense</big></b>\n\n
+        To add expense click the button that has plus icon(+) at the bottom in maun menu.
+        Then it will show a new window where you can add or save your expense\n\n
+        <b><big>How to Delete or Modify daily expense data?</big></b>\n\n
+
+If you want to delete or modify your data, go to your “Daily Expense” then long press the desire data from the list .
+ A Popup window will show two option for delete or modify. If you click delete button then data will be deleted.
+If you click the modify button then another window will let you modify data as you want.\n\n
+
+<b><big>How to Delete or Modify Monthly expense data?</big></b>\n\n
+
+If you want to delete or modify your data, go to your “Monthly Expense” then long press the desire data from the list .
+ A Popup window will show two option for delete or modify. If you click delete button then data will be deleted.
+If you click the modify button then another window will let you modify data as you want.\n\n
+
+<b><big>How to Delete or Modify Yearly expense data?</big></b>\n\n
+
+If you want to delete or modify your data, go to your “Yearly Expense” then long press the desire data from the list .
+ A Popup window will show two option for delete or modify. If you click delete button then data will be deleted.
+If you click the modify button then another window will let you modify data as you want.\n\n
+
+<b><big>How to save Daily Income?</big></b>\n\n
+
+Goto income, here you can add daily income by clicking Daily button.
+ If your earning is daily wise then you enter you amount and click daily button then the amount will add with your previous daily income.
+If you found any problem then clear all amount and then add daily wise amount\n\n
+
+<b><big>How to save Monthly Income?</big></b>\n\n
+
+Goto income, here you can set monthly income by clicking Monthly button.
+ If your earning is monthly wise then you enter you amount and click Monthly button then the amount will add as your monthly income.
+If you found any problem then clear all amount and then add monthly wise income\n\n\n
+
+
+<b><big>If you can not find your solution you can mail us.</big></b>\n\n
+Email : <b><big>mdraihan7007@gamil.com</big></b>\n\n\n
+    </string>
+
+
+</resources>
